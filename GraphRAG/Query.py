@@ -263,7 +263,7 @@ MAX_TRIPLES = 50
 QUERY_VECTOR_MAX_CHUNKS = 40
 QUERY_FULL_TEXT_MAX_CHUNKS = 40
 QUERY_MAX_CHUNKS = 80  # Maximum RRF-ranked literature chunks per expanded query.
-MAX_CHARACTERS = 600000  # Literature context character budget.
+MAX_CHARACTERS = 20000  # Literature context character budget.
 MAX_TRIPLES = 50
 RERANK_MAX_TEXT_CHARS = 2000
 
@@ -272,7 +272,7 @@ ACCESSION_API_URL = os.getenv("ACCESSION_API_URL") or ""
 ACCESSION_API_TOKEN = "research_accessions"
 ACCESSION_API_TIMEOUT = 120
 
-METADATA_MAX_CHARACTERS = 300000  
+METADATA_MAX_CHARACTERS = 20000  
 
 SEMANTIC_CACHE_INDEX = "semantic_cache_vector"
 SEMANTIC_CACHE_THRESHOLD = 0.92
