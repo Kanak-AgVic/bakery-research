@@ -258,8 +258,6 @@ METADATA_MAX_TRIPLES = 50  # Maximum relationship descriptions included in metad
 METADATA_MAX_CONTEXT_CHARS = 20000  # Character budget for metadata context.
 
 # Literature/Pretzel retrieval defaults; vector and full-text limits are per query.
-MAX_CHARACTERS = 600000
-MAX_TRIPLES = 50
 QUERY_VECTOR_MAX_CHUNKS = 40
 QUERY_FULL_TEXT_MAX_CHUNKS = 40
 QUERY_MAX_CHUNKS = 80  # Maximum RRF-ranked literature chunks per expanded query.
